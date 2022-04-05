@@ -7,11 +7,11 @@ settings_location = "DDMockiOS/Settings.bundle/"
 
 map = {}
 
-print "Creating map of endpoint paths and mock files..."
+print("Creating map of endpoint paths and mock files...")
 for subdir, dirs, files in os.walk(mock_files_location):
     for file in files:
         filepath = subdir + os.sep + file
-        
+
         if filepath.endswith(".json"):
             endpointPath = subdir.replace(mock_files_location, "")
             if endpointPath.startswith("/"):
@@ -22,7 +22,7 @@ for subdir, dirs, files in os.walk(mock_files_location):
             else:
                 map[endpointPath] = [file]
 
-print "Creating Settings.bundle..."
+print("Creating Settings.bundle...")
 if not os.path.exists(settings_location):
     os.makedirs(settings_location)
 
@@ -132,18 +132,18 @@ for endpointPath, files in map.items():
     root = root + "\n\t\t\t<key>Title</key>"
     root = root + "\n\t\t\t<string>" + filename + "</string>"
     root = root + "\n\t\t</dict>"
-    
-    print "Creating plist file for " + endpointPath + "..."
+
+    print("Creating plist file for " + endpointPath + "...")
     with open(settings_location + filename + ".plist", "w+") as fout:
         newplist = plist
-        
+
         newplist = newplist.replace("$endpointPathName", endpointPath).replace("$endpointPathKey", filename)
-        
+
         indexes = "<integer>0</integer>"
         for i in range(1, len(files)):
             indexes = indexes + "\n\t\t\t\t<integer>" + str(i) + "</integer>"
         newplist = newplist.replace("$indexMockFiles", indexes)
-        
+
         mockFiles = "<string>" + files[0] + "</string>"
         for i in range(1, len(files)):
             mockFiles = mockFiles + "\n\t\t\t\t<string>" + files[i] + "</string>"
@@ -151,10 +151,11 @@ for endpointPath, files in map.items():
 
         fout.write(newplist)
 
-print "Creating root plist..."
+
+print("Creating root plist...")
 root = root + "\n\t</array>"
 root = root + "\n</dict>"
 root = root + "\n</plist>"
 with open(settings_location + "Root.plist", "w+") as fout:
     fout.write(root)
-print "Done!"
+print("Done!")

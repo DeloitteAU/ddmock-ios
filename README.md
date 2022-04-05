@@ -10,6 +10,7 @@ An API mocking library for iOS.
 [![Platform](https://img.shields.io/cocoapods/p/DDMockiOS.svg?style=flat)](https://cocoapods.org/pods/DDMockiOS)
 
 ## Requirements
+* Python 3
 
 ## Installation
 
@@ -25,7 +26,7 @@ pod 'DDMockiOS'
 
 3. Create a new run script in the target build phase and add
 
-`python "${PODS_ROOT}/DDMockiOS/init-mocks.py" "<path_to_mock_files_directory>/mockfiles"`
+`python3 "${PODS_ROOT}/DDMockiOS/init-mocks.py" "<path_to_mock_files_directory>/mockfiles"`
 
 4. Follow Getting Started steps
 
@@ -39,7 +40,7 @@ pod 'DDMockiOS'
 
 4. Create a new run script in the target build phase and add
 
-`python "${SRCROOT}/DDMockiOS/init-mocks.py" "<path_to_mock_files_directory>/mockfiles"`
+`python3 "${SRCROOT}/DDMockiOS/init-mocks.py" "<path_to_mock_files_directory>/mockfiles"`
 
 5. Follow Getting Started steps
 
