@@ -3,10 +3,12 @@ import Foundation
 public class DDMock {
     private let mockDirectory = "/mockfiles"
     private let jsonExtension = "json"
+    public static let versionString = "0.1.6"
     
     private var mockEntries = [String: MockEntry]()
 
     private(set) var strict: Bool  = false  // Enforces mocks only and no API fall-through
+    private(set) var addMockHeader: Bool = true // Adds a mock header to show that mock is in use
     public private(set) var matchedPaths = [String]()  // chronological order of paths
     public var onMissingMock: (_ path: String?) -> Void = {path in
         fatalError("missing stub for path: \(path ?? "<unknown>")")
@@ -14,8 +16,9 @@ public class DDMock {
     
     public static let shared = DDMock()
 
-    public func initialise(strict: Bool = false) {
+    public func initialise(strict: Bool = false, addMockHeader: Bool = true) {
         self.strict = strict
+        self.addMockHeader = addMockHeader
         let docsPath = Bundle.main.resourcePath! + mockDirectory
         let fileManager = FileManager.default
         

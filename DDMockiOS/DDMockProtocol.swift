@@ -39,6 +39,9 @@ public class DDMockProtocol: URLProtocol {
                 let data: Data? = DDMock.shared.getData(entry)
                 var headers = [String: String]()
                 headers["Content-Type"] = "application/json"
+                if DDMock.shared.addMockHeader {
+                    headers["X-Mocked-By"] = "DDMock \(DDMock.versionString)"
+                }
                 if let data = data {
                     headers["Content-Length"] = "\(data.count)"
                 }
