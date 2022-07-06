@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = '11.0'
 
-  spec.source_files = 'Sources/DDMockiOS/**/*'
+  spec.source_files = 'Sources/DDMockiOS/**/*.swift'
 
   spec.preserve_paths = [
       'init-mocks.py',
