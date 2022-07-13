@@ -60,6 +60,25 @@ DDMockProtocol.initialise(config: configuration)
 
 3. Check if after first run of the app, the `Settings.bundle` file underneath the `DDMockiOS/` is added to the project. If not add this to the project.
 
+## Notes/Troubleshooting
+You must pass the `URLSessionConfiguration` used for `DDMockProtocol` into your networking layer after the `DDMockProtocol.initialise` call for DDMock to be active. If you create a `URLSession` with the `URLSessionConfiguration` used before the `DDMockProtocol.initialise` call, then DDMock will not be active.
+Working Example:
+```
+// session config
+let config = URLSessionConfiguration.default
+
+// init DDMock
+DDMock.shared.initialise()
+// this function is mutating
+DDMockProtocol.initialise(config: config)
+
+let session = URLSession(
+    configuration: config,
+    delegate: self,
+    delegateQueue: OperationQueue.main
+)
+```
+
 ## Mock API files
 
 * All API mock files must be stored under a directory called __/mockfiles__.
