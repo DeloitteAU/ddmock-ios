@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file.
 
 ---
 ## [0.2.0](https://github.com/DeloitteDigitalAPAC/ddmock-ios/releases/tag/v0.2.0)
-Released on 2022-07-19
+Released on 2022-10-12
 
 #### Updated
 - Refactored project to be called DDMock instead of DDMockiOS and ddmock-ios
@@ -42,4 +42,5 @@ Released on 2020-05-01
 
 ## [0.1.4](https://github.com/DeloitteDigitalAPAC/ddmock-ios/releases/tag/v0.1.4)
 Released on 2020-04-30
+
 Initial public version
