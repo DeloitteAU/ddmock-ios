@@ -22,7 +22,7 @@
 - [Mock files](#mock-files)
 - [Notes/Troubleshooting](#notestroubleshooting)
 - [Known Issues](#known-issues)
-- [Changelog]()
+- [Changelog](#changelog)
 - [License](#license)
 
 ## What is this?
