@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9118D8B0223F1AE300195DC1"
-               BuildableName = "DDMockiOS.framework"
-               BlueprintName = "DDMockiOS"
-               ReferencedContainer = "container:DDMockiOS.xcodeproj">
+               BuildableName = "DDMock.framework"
+               BlueprintName = "DDMock"
+               ReferencedContainer = "container:DDMock.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9118D8B0223F1AE300195DC1"
-            BuildableName = "DDMockiOS.framework"
-            BlueprintName = "DDMockiOS"
-            ReferencedContainer = "container:DDMockiOS.xcodeproj">
+            BuildableName = "DDMock.framework"
+            BlueprintName = "DDMock"
+            ReferencedContainer = "container:DDMock.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint DDMockiOS.podspec' to ensure this is a
+# Be sure to run `pod lib lint DDMock.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |spec|
-  spec.name             = 'DDMockiOS'
-  spec.version          = '0.1.6'
+  spec.name             = 'DDMock'
+  spec.version          = '0.2.0'
   spec.summary          = 'Deloitte Digital simple network mocking library for iOS'
 
 # This description is used to generate tags and improve search results.
@@ -24,12 +24,12 @@ Pod::Spec.new do |spec|
   spec.homepage         = 'https://github.com/DeloitteDigitalAPAC/ddmock-ios'
   # spec.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
-  spec.author           = 'Deloitte Digital Asia Pacific'
+  spec.author           = 'Deloitte Digital'
   spec.source           = { :git => "https://github.com/DeloitteDigitalAPAC/ddmock-ios.git", :tag => 'v' + spec.version.to_s }
 
   spec.ios.deployment_target = '11.0'
 
-  spec.source_files = 'Sources/DDMockiOS/**/*.swift'
+  spec.source_files = 'Sources/DDMock/**/*.swift'
 
   spec.preserve_paths = [
       'init-mocks.py',

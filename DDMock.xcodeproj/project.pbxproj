@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52C27F802609C1A600D04B74 /* DDMockiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C27F7F2609C1A600D04B74 /* DDMockiOSTests.swift */; };
-		52C27F822609C1A600D04B74 /* DDMockiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9118D8B1223F1AE300195DC1 /* DDMockiOS.framework */; };
-		9118D8B6223F1AE300195DC1 /* DDMockiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 9118D8B4223F1AE300195DC1 /* DDMockiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C27F802609C1A600D04B74 /* DDMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C27F7F2609C1A600D04B74 /* DDMockTests.swift */; };
+		52C27F822609C1A600D04B74 /* DDMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9118D8B1223F1AE300195DC1 /* DDMock.framework */; };
+		9118D8B6223F1AE300195DC1 /* DDMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 9118D8B4223F1AE300195DC1 /* DDMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9118D8C0223F1B4C00195DC1 /* DDMockProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9118D8BC223F1B4C00195DC1 /* DDMockProtocol.swift */; };
 		9118D8C1223F1B4C00195DC1 /* DDMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9118D8BD223F1B4C00195DC1 /* DDMock.swift */; };
 		9118D8C2223F1B4C00195DC1 /* MockEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9118D8BE223F1B4C00195DC1 /* MockEntry.swift */; };
@@ -22,21 +22,22 @@
 			containerPortal = 9118D8A8223F1AE300195DC1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9118D8B0223F1AE300195DC1;
-			remoteInfo = DDMockiOS;
+			remoteInfo = DDMock;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		52C27F7D2609C1A600D04B74 /* DDMockiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDMockiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52C27F7F2609C1A600D04B74 /* DDMockiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDMockiOSTests.swift; sourceTree = "<group>"; };
+		5229B6E828ACCE7D007A489C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		52C27F7D2609C1A600D04B74 /* DDMockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDMockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C27F7F2609C1A600D04B74 /* DDMockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDMockTests.swift; sourceTree = "<group>"; };
 		52C27F812609C1A600D04B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52C27F8C2609C1F600D04B74 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		52C27F8D2609C1F600D04B74 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		52C27F8E2609C20400D04B74 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		52C27F8F2609C20400D04B74 /* DDMockiOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = DDMockiOS.podspec; sourceTree = "<group>"; };
+		52C27F8F2609C20400D04B74 /* DDMock.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = DDMock.podspec; sourceTree = "<group>"; };
 		52C27F902609C23700D04B74 /* init-mocks.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "init-mocks.py"; sourceTree = "<group>"; };
-		9118D8B1223F1AE300195DC1 /* DDMockiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DDMockiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9118D8B4223F1AE300195DC1 /* DDMockiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDMockiOS.h; sourceTree = "<group>"; };
+		9118D8B1223F1AE300195DC1 /* DDMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DDMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9118D8B4223F1AE300195DC1 /* DDMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDMock.h; sourceTree = "<group>"; };
 		9118D8B5223F1AE300195DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9118D8BC223F1B4C00195DC1 /* DDMockProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDMockProtocol.swift; sourceTree = "<group>"; };
 		9118D8BD223F1B4C00195DC1 /* DDMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDMock.swift; sourceTree = "<group>"; };
@@ -49,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52C27F822609C1A600D04B74 /* DDMockiOS.framework in Frameworks */,
+				52C27F822609C1A600D04B74 /* DDMock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,21 +64,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		52C27F7E2609C1A600D04B74 /* DDMockiOSTests */ = {
+		5229B6E728ACCE4E007A489C /* Package */ = {
 			isa = PBXGroup;
 			children = (
-				52C27F7F2609C1A600D04B74 /* DDMockiOSTests.swift */,
+				5229B6E828ACCE7D007A489C /* Package.swift */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		52C27F7E2609C1A600D04B74 /* DDMockTests */ = {
+			isa = PBXGroup;
+			children = (
+				52C27F7F2609C1A600D04B74 /* DDMockTests.swift */,
 				52C27F812609C1A600D04B74 /* Info.plist */,
 			);
-			name = DDMockiOSTests;
-			path = Tests/DDMockiOSTests;
+			name = DDMockTests;
+			path = Tests/DDMockTests;
 			sourceTree = "<group>";
 		};
 		52C27F8A2609C1AE00D04B74 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
 				52C27F902609C23700D04B74 /* init-mocks.py */,
-				52C27F8F2609C20400D04B74 /* DDMockiOS.podspec */,
+				52C27F8F2609C20400D04B74 /* DDMock.podspec */,
 				52C27F8E2609C20400D04B74 /* LICENSE */,
 			);
 			name = Pod;
@@ -95,10 +104,11 @@
 		9118D8A7223F1AE300195DC1 = {
 			isa = PBXGroup;
 			children = (
+				5229B6E728ACCE4E007A489C /* Package */,
 				52C27F8B2609C1B600D04B74 /* Documentation */,
 				52C27F8A2609C1AE00D04B74 /* Pod */,
-				9118D8B3223F1AE300195DC1 /* DDMockiOS */,
-				52C27F7E2609C1A600D04B74 /* DDMockiOSTests */,
+				9118D8B3223F1AE300195DC1 /* DDMock */,
+				52C27F7E2609C1A600D04B74 /* DDMockTests */,
 				9118D8B2223F1AE300195DC1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,24 +116,24 @@
 		9118D8B2223F1AE300195DC1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9118D8B1223F1AE300195DC1 /* DDMockiOS.framework */,
-				52C27F7D2609C1A600D04B74 /* DDMockiOSTests.xctest */,
+				9118D8B1223F1AE300195DC1 /* DDMock.framework */,
+				52C27F7D2609C1A600D04B74 /* DDMockTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9118D8B3223F1AE300195DC1 /* DDMockiOS */ = {
+		9118D8B3223F1AE300195DC1 /* DDMock */ = {
 			isa = PBXGroup;
 			children = (
 				9118D8BD223F1B4C00195DC1 /* DDMock.swift */,
 				9118D8BC223F1B4C00195DC1 /* DDMockProtocol.swift */,
 				9118D8BF223F1B4C00195DC1 /* DDMockSettingsBundleHelper.swift */,
 				9118D8BE223F1B4C00195DC1 /* MockEntry.swift */,
-				9118D8B4223F1AE300195DC1 /* DDMockiOS.h */,
+				9118D8B4223F1AE300195DC1 /* DDMock.h */,
 				9118D8B5223F1AE300195DC1 /* Info.plist */,
 			);
-			name = DDMockiOS;
-			path = Sources/DDMockiOS;
+			name = DDMock;
+			path = Sources/DDMock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,16 +143,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9118D8B6223F1AE300195DC1 /* DDMockiOS.h in Headers */,
+				9118D8B6223F1AE300195DC1 /* DDMock.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		52C27F7C2609C1A600D04B74 /* DDMockiOSTests */ = {
+		52C27F7C2609C1A600D04B74 /* DDMockTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52C27F872609C1A600D04B74 /* Build configuration list for PBXNativeTarget "DDMockiOSTests" */;
+			buildConfigurationList = 52C27F872609C1A600D04B74 /* Build configuration list for PBXNativeTarget "DDMockTests" */;
 			buildPhases = (
 				52C27F792609C1A600D04B74 /* Sources */,
 				52C27F7A2609C1A600D04B74 /* Frameworks */,
@@ -153,14 +163,14 @@
 			dependencies = (
 				52C27F842609C1A600D04B74 /* PBXTargetDependency */,
 			);
-			name = DDMockiOSTests;
-			productName = DDMockiOSTests;
-			productReference = 52C27F7D2609C1A600D04B74 /* DDMockiOSTests.xctest */;
+			name = DDMockTests;
+			productName = DDMockTests;
+			productReference = 52C27F7D2609C1A600D04B74 /* DDMockTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9118D8B0223F1AE300195DC1 /* DDMockiOS */ = {
+		9118D8B0223F1AE300195DC1 /* DDMock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9118D8B9223F1AE300195DC1 /* Build configuration list for PBXNativeTarget "DDMockiOS" */;
+			buildConfigurationList = 9118D8B9223F1AE300195DC1 /* Build configuration list for PBXNativeTarget "DDMock" */;
 			buildPhases = (
 				9118D8AC223F1AE300195DC1 /* Headers */,
 				9118D8AD223F1AE300195DC1 /* Sources */,
@@ -171,9 +181,9 @@
 			);
 			dependencies = (
 			);
-			name = DDMockiOS;
-			productName = DDMockiOS;
-			productReference = 9118D8B1223F1AE300195DC1 /* DDMockiOS.framework */;
+			name = DDMock;
+			productName = DDMock;
+			productReference = 9118D8B1223F1AE300195DC1 /* DDMock.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -184,7 +194,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
-				ORGANIZATIONNAME = "Bunduwongse, Natalie (AU - Sydney)";
+				ORGANIZATIONNAME = "Deloitte Digital";
 				TargetAttributes = {
 					52C27F7C2609C1A600D04B74 = {
 						CreatedOnToolsVersion = 12.4;
@@ -195,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9118D8AB223F1AE300195DC1 /* Build configuration list for PBXProject "DDMockiOS" */;
+			buildConfigurationList = 9118D8AB223F1AE300195DC1 /* Build configuration list for PBXProject "DDMock" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -207,8 +217,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9118D8B0223F1AE300195DC1 /* DDMockiOS */,
-				52C27F7C2609C1A600D04B74 /* DDMockiOSTests */,
+				9118D8B0223F1AE300195DC1 /* DDMock */,
+				52C27F7C2609C1A600D04B74 /* DDMockTests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,7 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52C27F802609C1A600D04B74 /* DDMockiOSTests.swift in Sources */,
+				52C27F802609C1A600D04B74 /* DDMockTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +265,7 @@
 /* Begin PBXTargetDependency section */
 		52C27F842609C1A600D04B74 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9118D8B0223F1AE300195DC1 /* DDMockiOS */;
+			target = 9118D8B0223F1AE300195DC1 /* DDMock */;
 			targetProxy = 52C27F832609C1A600D04B74 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -267,14 +277,14 @@
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SH9M68C7WT;
-				INFOPLIST_FILE = DDMockiOSTests/Info.plist;
+				INFOPLIST_FILE = DDMockTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.dd.DDMockiOSTests;
+				PRODUCT_BUNDLE_IDENTIFIER = au.dd.DDMockTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,14 +297,14 @@
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SH9M68C7WT;
-				INFOPLIST_FILE = DDMockiOSTests/Info.plist;
+				INFOPLIST_FILE = DDMockTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.dd.DDMockiOSTests;
+				PRODUCT_BUNDLE_IDENTIFIER = au.dd.DDMockTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -438,7 +448,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/DDMockiOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/DDMock/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -446,7 +456,7 @@
 					"@loader_path/Frameworks",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dd.DDMockiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dd.DDMock;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -466,14 +476,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/DDMockiOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/DDMock/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dd.DDMockiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dd.DDMock;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -484,7 +494,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52C27F872609C1A600D04B74 /* Build configuration list for PBXNativeTarget "DDMockiOSTests" */ = {
+		52C27F872609C1A600D04B74 /* Build configuration list for PBXNativeTarget "DDMockTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52C27F852609C1A600D04B74 /* Debug */,
@@ -493,7 +503,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9118D8AB223F1AE300195DC1 /* Build configuration list for PBXProject "DDMockiOS" */ = {
+		9118D8AB223F1AE300195DC1 /* Build configuration list for PBXProject "DDMock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9118D8B7223F1AE300195DC1 /* Debug */,
@@ -502,7 +512,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9118D8B9223F1AE300195DC1 /* Build configuration list for PBXNativeTarget "DDMockiOS" */ = {
+		9118D8B9223F1AE300195DC1 /* Build configuration list for PBXNativeTarget "DDMock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9118D8BA223F1AE300195DC1 /* Debug */,

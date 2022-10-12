@@ -2,9 +2,6 @@
 
 #  build-xcframework.sh
 #  
-#
-#  Created by Plester, Timothy (AU - Melbourne) on 24/1/21.
-#  
 
 # Prints the archive path for simulator
 function archivePathSimulator {
@@ -24,7 +21,7 @@ echo "${DIR}"
 function archive {
 echo "📨 Starts archiving the scheme: ${1} for destination: ${2};\n📝 Archive path: ${3}.xcarchive"
 xcodebuild archive \
--project DDMockiOS.xcodeproj \
+-project DDMock.xcodeproj \
 -scheme ${1} \
 -destination "${2}" \
 -archivePath "${3}" \
@@ -57,16 +54,16 @@ fi
 
 echo "🚀 Process started 🚀"
 echo "📂 Evaluating Output Dir"
-mkdir -p output/DDMockiOS
+mkdir -p output/DDMock
 echo "🧼 Cleaning the Output Dir"
-rm -rf output/DDMockiOS/DDMockiOS.xcframework
+rm -rf output/DDMock/DDMock.xcframework
 rm -rf output/xcframeworks
 rm -rf output/archives
-echo "📝 Archive DDMockiOS"
-buildArchive DDMockiOS
-echo "🗜 Create DDMockiOS.xcframework"
-createXCFramework DDMockiOS
-mv output/xcframeworks/DDMockiOS.xcframework output/DDMockiOS/DDMockiOS.xcframework
+echo "📝 Archive DDMock"
+buildArchive DDMock
+echo "🗜 Create DDMock.xcframework"
+createXCFramework DDMock
+mv output/xcframeworks/DDMock.xcframework output/DDMock/DDMock.xcframework
 rm -rf output/xcframeworks
 rm -rf output/archives
-cp init-mocks.py output/DDMockiOS
+cp init-mocks.py output/DDMock

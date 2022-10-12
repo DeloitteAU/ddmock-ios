@@ -3,7 +3,7 @@ import shutil
 import sys
 
 mock_files_location = sys.argv[1]
-settings_location = "DDMockiOS/Settings.bundle/"
+settings_location = "DDMock/Settings.bundle/"
 
 map = {}
 
