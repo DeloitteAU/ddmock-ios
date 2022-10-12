@@ -4,24 +4,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "ddmock-ios",
+    name: "DDMock",
     platforms: [.iOS(.v11)],
     products: [
         .library(
-            name: "ddmock-ios",
-            targets: ["ddmock-ios"]),
+            name: "DDMock",
+            targets: ["DDMock"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "ddmock-ios",
-            dependencies: [],
-            path: "Sources"
+            name: "DDMock",
+            dependencies: []
         ),
         .testTarget(
-            name: "ddmock-iosTests",
-            dependencies: ["ddmock-ios"],
-            path: "Tests"
+            name: "DDMockTests",
+            dependencies: ["DDMock"]
         ),
     ]
 )

@@ -1,14 +1,13 @@
 //
-//  DDMockiOSTests.swift
-//  DDMockiOSTests
+//  DDMockTests.swift
+//  DDMockTests
 //
-//  Created by Plester, Timothy (AU - Melbourne) on 23/3/21.
-//  Copyright © 2021 Bunduwongse, Natalie (AU - Sydney). All rights reserved.
+//  Copyright © 2021 Deloitte Digital. All rights reserved.
 //
 
 import XCTest
 
-class DDMockiOSTests: XCTestCase {
+class DDMockTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
