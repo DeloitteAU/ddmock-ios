@@ -68,7 +68,7 @@ fi
 
 ### Swift Package Manager
 
-1. Add https://github.com/DeloitteDigitalAPAC/ddmock-ios url as a Swift Package
+1. Add https://github.com/DeloitteDigitalAPAC/ddmock-ios url as a Swift package as described in https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app for adding it to an app or https://developer.apple.com/documentation/xcode/creating-a-standalone-swift-package-with-xcode#Add-a-dependency-on-another-Swift-package for adding it to another Swift package.
 
 2. Click on your project in the file list, choose your target under `TARGETS`, click the `Build Phases` tab
 

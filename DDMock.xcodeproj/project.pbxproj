@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		52C27F802609C1A600D04B74 /* DDMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C27F7F2609C1A600D04B74 /* DDMockTests.swift */; };
 		52C27F822609C1A600D04B74 /* DDMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9118D8B1223F1AE300195DC1 /* DDMock.framework */; };
+		52D6A1CE291B83A0001C5804 /* DDMock.docc in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A1CD291B83A0001C5804 /* DDMock.docc */; };
 		9118D8B6223F1AE300195DC1 /* DDMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 9118D8B4223F1AE300195DC1 /* DDMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9118D8C0223F1B4C00195DC1 /* DDMockProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9118D8BC223F1B4C00195DC1 /* DDMockProtocol.swift */; };
 		9118D8C1223F1B4C00195DC1 /* DDMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9118D8BD223F1B4C00195DC1 /* DDMock.swift */; };
@@ -36,6 +37,7 @@
 		52C27F8E2609C20400D04B74 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		52C27F8F2609C20400D04B74 /* DDMock.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = DDMock.podspec; sourceTree = "<group>"; };
 		52C27F902609C23700D04B74 /* init-mocks.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "init-mocks.py"; sourceTree = "<group>"; };
+		52D6A1CD291B83A0001C5804 /* DDMock.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DDMock.docc; sourceTree = "<group>"; };
 		9118D8B1223F1AE300195DC1 /* DDMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DDMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9118D8B4223F1AE300195DC1 /* DDMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDMock.h; sourceTree = "<group>"; };
 		9118D8B5223F1AE300195DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		9118D8B3223F1AE300195DC1 /* DDMock */ = {
 			isa = PBXGroup;
 			children = (
+				52D6A1CD291B83A0001C5804 /* DDMock.docc */,
 				9118D8BD223F1B4C00195DC1 /* DDMock.swift */,
 				9118D8BC223F1B4C00195DC1 /* DDMockProtocol.swift */,
 				9118D8BF223F1B4C00195DC1 /* DDMockSettingsBundleHelper.swift */,
@@ -253,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D6A1CE291B83A0001C5804 /* DDMock.docc in Sources */,
 				9118D8C3223F1B4C00195DC1 /* DDMockSettingsBundleHelper.swift in Sources */,
 				9118D8C0223F1B4C00195DC1 /* DDMockProtocol.swift in Sources */,
 				9118D8C1223F1B4C00195DC1 /* DDMock.swift in Sources */,

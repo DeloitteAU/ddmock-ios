@@ -16,6 +16,11 @@ public class DDMock {
     
     public static let shared = DDMock()
 
+
+    /// Initialise DDMock functionality
+    /// - Parameters:
+    ///   - strict: Strict mode - Real API will not be used if a mock is not found for endpoint
+    ///   - addMockHeader: Adds a `X-Mocked-By: DDMock <version>` header to mock responses to make it easier to debug mock issues
     public func initialise(strict: Bool = false, addMockHeader: Bool = true) {
         self.strict = strict
         self.addMockHeader = addMockHeader
