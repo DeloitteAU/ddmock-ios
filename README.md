@@ -1,3 +1,5 @@
+⚠️ This repository is no longer maintained and has been archived.
+
 ![Deloitte Digital](https://raw.githubusercontent.com/DeloitteDigitalAPAC/ddmock-ios/master/dd-logo.png)
 
 # DDMock
